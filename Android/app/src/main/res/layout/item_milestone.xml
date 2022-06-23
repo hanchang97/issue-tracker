@@ -196,6 +196,7 @@
                 app:layout_constraintStart_toEndOf="@id/iv_calendar"
                 app:layout_constraintTop_toBottomOf="@id/empty_view_3"
                 android:layout_marginStart="10dp"
+                android:text="@{item.date}"
                 tools:text="완료일(생략 가능)"/>
 
             <View
@@ -234,6 +235,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:textColor="@color/Primary1"
+                    setOpenIssue="@{item.open}"
                     tools:text="열린 이슈 1개"/>
             </androidx.cardview.widget.CardView>
 
@@ -267,6 +269,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:textColor="@color/Secondary1"
+                    setClosedIssue="@{item.closed}"
                     tools:text="닫힌 이슈 1개"/>
             </androidx.cardview.widget.CardView>
 
