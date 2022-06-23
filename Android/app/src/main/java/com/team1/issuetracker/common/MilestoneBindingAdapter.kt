@@ -1,6 +1,5 @@
 package com.team1.issuetracker.common
 
-import android.graphics.Color
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
@@ -9,7 +8,6 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.databinding.BindingAdapter
-import com.team1.issuetracker.ui.main.label.AddLabelViewModel
 import com.team1.issuetracker.ui.main.milestone.AddMilestoneViewModel
 import java.text.SimpleDateFormat
 
@@ -43,7 +41,16 @@ fun setDate(editText: EditText, viewModel: AddMilestoneViewModel) {
         }
     }
 }
-//
-//@BindingAdapter("setOpenIssue")
-//fun
+
+@BindingAdapter("setOpenIssue")
+fun setOpenIssue(textView: TextView, openIssue: Int) {
+    textView.text = "열린 이슈 ${openIssue}개"
+}
+
+@BindingAdapter("setClosedIssue")
+fun setClosedIssue(textView: TextView, closedIssue: Int) {
+    textView.text = "닫힌 이슈 ${closedIssue}개"
+}
+
+
 
