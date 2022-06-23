@@ -72,7 +72,7 @@ abstract class SwipeHelper: ItemTouchHelper.Callback() {  // ItemTouchHelper.Cal
     ) {
         //super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive)
         if(actionState == ItemTouchHelper.ACTION_STATE_SWIPE){
-            Log.d("AppTest", "onChildDraw")
+            //Log.d("AppTest", "onChildDraw")
 
             val view = getView(viewHolder)
 
@@ -83,7 +83,7 @@ abstract class SwipeHelper: ItemTouchHelper.Callback() {  // ItemTouchHelper.Cal
             //Log.d("AppTest", "dX : ${dX}, dY : ${dY}")
 
             currentDx = x
-            Log.d("AppTest", "x : ${x}")
+            //Log.d("AppTest", "x : ${x}")
 
             getDefaultUIUtil().onDraw(
                 c,

@@ -17,6 +17,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.SimpleItemAnimator
+import com.google.android.material.snackbar.Snackbar
 import com.team1.issuetracker.R
 import com.team1.issuetracker.common.PrintLog
 import com.team1.issuetracker.data.model.Issue
@@ -51,6 +52,8 @@ class IssueFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        var cancel = true
+
         val callback = object : ActionMode.Callback {
             override fun onCreateActionMode(mode: ActionMode?, menu: Menu?): Boolean {
                 Log.d("AppTest", "onCreateActionMode")
@@ -67,10 +70,14 @@ class IssueFragment : Fragment() {
                 return when (item?.itemId) {
                     R.id.delete -> {
                         // Handle delete icon press
+                        cancel = false
                         true
                     }
                     R.id.close -> {
                         // Handle close icon press
+                        cancel = false
+                        //viewModel.requestCloseIssueSet()
+                        mode?.finish()
                         true
                     }
                     else -> false
@@ -82,7 +89,8 @@ class IssueFragment : Fragment() {
                 actionMode = null
 
                 issueListAdapter.makeCheckBoxGone() // 모든 아이템 체크박스 보이지 않도록
-                viewModel.checkedSetClear()
+                if(cancel) viewModel.checkedSetClear()
+                else viewModel.requestCloseIssueSet()
             }
         }
 
@@ -99,6 +107,15 @@ class IssueFragment : Fragment() {
                         else
                             Html.fromHtml("<font color='#FFFFFF'>${count}</font>")
                     }
+                }
+            }
+        }
+
+        viewLifecycleOwner.lifecycleScope.launch{
+            viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED){
+                viewModel.closeOrDeleteFlow.collect{
+                    PrintLog.printLog("sharedflow collect")
+                    if(it) showSnackbar()
                 }
             }
         }
@@ -201,6 +218,24 @@ class IssueFragment : Fragment() {
         binding.topAppBar.setTitleTextColor(ContextCompat.getColor(requireContext(), R.color.white))
         binding.topAppBar.navigationIcon =
             ContextCompat.getDrawable(requireContext(), R.drawable.ic_cancel)
+    }
+
+    private fun showSnackbar(){
+        val snackbar = Snackbar.make(requireActivity().findViewById(R.id.cl_main), "선택한 이슈를 닫았습니다.", Snackbar.LENGTH_LONG)
+        snackbar.setAction("실행취소"
+        ) {
+            PrintLog.printLog("실행취소")
+            viewModel.undo()
+        }
+            .addCallback(object: Snackbar.Callback(){ // 스낵바 사라지는 시점 체크
+                override fun onDismissed(transientBottomBar: Snackbar?, event: Int) {
+                    super.onDismissed(transientBottomBar, event)
+
+                    PrintLog.printLog("snackbar dismissed")
+                    viewModel.checkedSetClear()
+                }
+            })
+        snackbar.show()
     }
 
 
