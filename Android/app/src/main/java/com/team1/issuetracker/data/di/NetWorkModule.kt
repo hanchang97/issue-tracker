@@ -18,6 +18,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetWorkModule {
     private const val BASE_URL = "http://3.34.47.60:8080"
+    private const val URL = "https://issuetracker-63f74-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
     @Provides
     @Singleton
@@ -50,7 +51,7 @@ object NetWorkModule {
         @Named("login") okHttpClient: OkHttpClient
     ): LabelApi {
         return Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(URL)
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

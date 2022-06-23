@@ -8,12 +8,9 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class LabelDataSourceImpl @Inject constructor(api: LabelApi): LabelDataSource {
+class LabelDataSourceImpl @Inject constructor(private val api: LabelApi) : LabelDataSource {
 
-    private val sample = listOf<Label>(
-        Label(0, "#808080", "Label", "샘플용 Label")
-    )
     override fun getLabel() = flow {
-        emit(sample)
+        emit(api.getLabels())
     }
 }

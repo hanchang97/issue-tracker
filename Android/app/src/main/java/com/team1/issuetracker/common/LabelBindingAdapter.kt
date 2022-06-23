@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
+import androidx.cardview.widget.CardView
 import androidx.databinding.BindingAdapter
 import com.team1.issuetracker.ui.main.label.AddLabelViewModel
 
@@ -38,4 +39,9 @@ fun setLabelColor(editText: EditText, viewModel: AddLabelViewModel) {
             }
         }
     }
+}
+
+@BindingAdapter("setLabelColor")
+fun setLabelColor(cardView: CardView, color: String) {
+    cardView.setCardBackgroundColor(Color.parseColor(color))
 }

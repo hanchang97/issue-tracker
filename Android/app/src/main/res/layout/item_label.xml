@@ -126,7 +126,7 @@
                 app:layout_constraintTop_toBottomOf="@id/empty_view_1"
                 app:layout_constraintStart_toEndOf="@id/empty_view_start"
                 app:cardElevation="0dp"
-                android:backgroundTint="#D5D5DB">
+                setLabelColor="@{item.color}">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -136,6 +136,7 @@
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
                     android:text="@{item.title}"
+                    android:textColor="@color/white"
                     tools:text="Label"/>
 
             </com.google.android.material.card.MaterialCardView>
