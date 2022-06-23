@@ -47,9 +47,29 @@ class IssueViewModel @Inject constructor(): ViewModel() {
         PrintLog.printLog("itemCount, ${itemCount.value}")
     }
 
+    fun requestCloseIssueSet(){
+        checkedSet.forEach {
+            sampleOriginIssueList[it].issueState = IssueState.CloseRequested
+        }
+
+        val tempList = ArrayList<Issue>()
+        sampleOriginIssueList.forEach {
+            if(it.issueState == IssueState.Open) tempList.add(Issue(it.issueId, it.mileStone, it.title, it.content, it.labelContent, it.labelColor, false, false, false, IssueState.Open))
+        }
+        PrintLog.printLog("tempList Size : ${tempList.size}")
+        _issueList.value = tempList
+
+        viewModelScope.launch {
+            _closeOrDeleteFlow.emit(true)
+        }
+
+    }
+
     // 1개 이슈 닫기 - 스와이프 후 삭제 시
     fun requestCloseSpecificIssue(id: Int){
         PrintLog.printLog("clicked id : ${id}")
+        checkedSet.add(id)
+
         sampleOriginIssueList[id].issueState = IssueState.CloseRequested
         val tempList = ArrayList<Issue>()
         sampleOriginIssueList.forEach {
@@ -64,7 +84,18 @@ class IssueViewModel @Inject constructor(): ViewModel() {
     }
 
     fun undo(){
-        
+        checkedSet.forEach {
+            sampleOriginIssueList[it].issueState = IssueState.Open
+        }
+
+        val tempList = ArrayList<Issue>()
+        sampleOriginIssueList.forEach {
+            if(it.issueState == IssueState.Open) tempList.add(Issue(it.issueId, it.mileStone, it.title, it.content, it.labelContent, it.labelColor, false, false, false, IssueState.Open))
+        }
+        PrintLog.printLog("tempList Size : ${tempList.size}")
+        _issueList.value = tempList
+
+        checkedSet.clear()
     }
 
     private fun addSampleIssueData(){
