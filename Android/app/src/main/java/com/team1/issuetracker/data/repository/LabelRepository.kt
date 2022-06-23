@@ -5,5 +5,5 @@ import kotlinx.coroutines.flow.Flow
 
 interface LabelRepository {
 
-    fun getLabel() : Flow<List<Label>>
+    fun getLabels() : Flow<List<Label>>
 }

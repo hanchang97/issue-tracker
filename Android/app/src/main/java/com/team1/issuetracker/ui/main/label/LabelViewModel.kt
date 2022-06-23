@@ -17,12 +17,12 @@ class LabelViewModel @Inject constructor(private val repository: LabelRepository
     val labelList = _labelList
 
     init {
-        getLabel()
+        getLabels()
     }
 
-    private fun getLabel() {
+    private fun getLabels() {
         viewModelScope.launch {
-            repository.getLabel().collect{
+            repository.getLabels().collect{
                 _labelList.value = it
             }
         }
