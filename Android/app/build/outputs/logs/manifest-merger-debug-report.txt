@@ -1,0 +1,616 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.databinding:databinding-adapters:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/f9063d597f6753fae82f6b9a3d6bb7eb/transformed/databinding-adapters-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/57eb649b2c42c4bc92bd08de10c19bf5/transformed/databinding-ktx-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/e5fcb780a2e9c4e61a24e676f4e994ed/transformed/databinding-runtime-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/3eeb5389a62e6ec1cfe36027ce797682/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/c70945b9a884b6777081842410421b77/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/0ee7d336b27272335940b0c79760f44d/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/8df694dd8ae1fe9008a65c297cf76394/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/81c064829ea48a616cdcbb3bbf8577dd/transformed/navigation-ui-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/kookoo/.gradle/caches/transforms-3/eeaf3a1452dcd31dc66d1eb373db75d5/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kookoo/.gradle/caches/transforms-3/d0101c190f973e7337780cae2ec283de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/00cacb822e398e24074a6c9fd2ff4832/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/kookoo/.gradle/caches/transforms-3/440c6379d47df55741be9fb78add315b/transformed/hilt-android-2.42/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/6cdc95863d6c0a1596194d7de626f2bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/dd22882f1ba3a5ebd441b388aba0a8c9/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/4154e7070d1b48c4c690d89b780c0db3/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-core:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/7cda16110c571af6148ab5dc913b329f/transformed/firebase-core-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e430bbb6c4e6a758e39835931c86a729/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/b99ab0faa02108df4cc81a5c01d88c7e/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/6f492f1f1be56a82be5cbaa99668c379/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/06d1d550fac1a2963e1c0e2e7bf7b9d7/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/37e2d9da0ee615235f1891479fc74079/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/kookoo/.gradle/caches/transforms-3/cd5f421981c4fd88765c7ef90d4106ec/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kookoo/.gradle/caches/transforms-3/01b156108672bc84465d692ab0d496bf/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/05e492e0b3825d407930603d57d66d22/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/b9f5be83df4e853ff123f4bda435cba0/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/0fcf73626ebe458214ba233665ec7c09/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/kookoo/.gradle/caches/transforms-3/f23a6aa511a17285998248c6db955887/transformed/activity-ktx-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/83ccd7e78f3f53db814dc6104a956051/transformed/coil-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2fdf2a3d2b0e7d92070d8f55a20e89a1/transformed/coil-base-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/6489d38c9bd67148a0052978249bcfdf/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/2d7f90002b86a6696e1d7b3c97f20b8d/transformed/navigation-common-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/afa960fe7dc72e8f9559cdff2dd228c4/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/kookoo/.gradle/caches/transforms-3/785b57416e014877837eab54b4c75fe0/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/56c78060c33af58fe10c7e9759a3e8d5/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/3cac2d2b682ff01749b68af2ebada7a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/4f49b5b16679aea84a9cd943e56dd44f/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kookoo/.gradle/caches/transforms-3/72ec6595b7e9c7e7af1d5f068bad7e0a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f8306787a0ad781e754fb52df6644339/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/c561818a2301b204cfb4c34d41e348cc/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.3.1] /Users/kookoo/.gradle/caches/transforms-3/f067f3805e0939cd1321ceb59e6f1296/transformed/activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kookoo/.gradle/caches/transforms-3/138c59d91ed20595b87e414630d1b5e9/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/9d8e41e31decc2704c9fd695e16dcc5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/aa89b077c6de653dfa95962eb1d9692c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/d1cc217dd293a966209bf411e3aae31c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/27769ca13ac34fa8b5027a0ad8700185/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/87c4021c4ae5e3bd9c08b5497c95b450/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b5ab5e799cd5507f492d8c84b5333bfb/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/afb18d6f2ff356573ca8b2f55981394d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/a351dd3c5019a7512aaf0e95e26f31e2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/41e2edd2d70e83ce857ae6ae015451e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f30a3d1c19a1e6340db31c2d06f6d9fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/12ae67bab3d8b41bfcb8d63626acd788/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/ad3d1cdeb78b9e3a8a816cc15bff16bc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/6e30706319d9543199bd35f40c85dda7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/2032239987309205816d62c3acde2150/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/a76394cffa257a05db2213f5bd167c5c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/744032d6a1c44e5e06858a97a71662ea/transformed/viewbinding-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kookoo/.gradle/caches/transforms-3/adcdc79c8db21040d2468ba98a92861c/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a26f18c5fcc5357adcdb7d0accdb6de6/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/f56e4dd11018596ad9de6267f33c1264/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b85c12183709e2d5d557a4f8837a4651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/228d7120009879adbe1d8c0573beae2e/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c10aaae6b444003d2ffbbf855f3cda8f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/7622d4415e1b8ba07fb6ca9c17769658/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a3252326f0973e4235ce14a6642514e3/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2094bea2d89f648c89fef651851eafb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kookoo/.gradle/caches/transforms-3/d7c64667cd82a5dbd040145f51c44fea/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c9915b2023588b79250dd3fbdc5f45ba/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/893bf9c671b78379c8078a7e18a19272/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/87125b61a987d7e1aaab23e451e8f52d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/768252c92ba626de504edd0d8f7174dc/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ddbd9e3f514248ec368e1d8dff103dc/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/97f90f348875bfe1413a187619bfd2cf/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/kookoo/.gradle/caches/transforms-3/609c46b106dcbbacba0778a39843dead/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:9:5-45:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/kookoo/.gradle/caches/transforms-3/eeaf3a1452dcd31dc66d1eb373db75d5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/kookoo/.gradle/caches/transforms-3/eeaf3a1452dcd31dc66d1eb373db75d5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kookoo/.gradle/caches/transforms-3/d0101c190f973e7337780cae2ec283de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kookoo/.gradle/caches/transforms-3/d0101c190f973e7337780cae2ec283de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-core:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/7cda16110c571af6148ab5dc913b329f/transformed/firebase-core-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/7cda16110c571af6148ab5dc913b329f/transformed/firebase-core-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e430bbb6c4e6a758e39835931c86a729/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e430bbb6c4e6a758e39835931c86a729/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/6f492f1f1be56a82be5cbaa99668c379/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/6f492f1f1be56a82be5cbaa99668c379/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/06d1d550fac1a2963e1c0e2e7bf7b9d7/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/06d1d550fac1a2963e1c0e2e7bf7b9d7/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/37e2d9da0ee615235f1891479fc74079/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/37e2d9da0ee615235f1891479fc74079/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/kookoo/.gradle/caches/transforms-3/cd5f421981c4fd88765c7ef90d4106ec/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/kookoo/.gradle/caches/transforms-3/cd5f421981c4fd88765c7ef90d4106ec/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kookoo/.gradle/caches/transforms-3/01b156108672bc84465d692ab0d496bf/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kookoo/.gradle/caches/transforms-3/01b156108672bc84465d692ab0d496bf/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/a76394cffa257a05db2213f5bd167c5c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/a76394cffa257a05db2213f5bd167c5c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:16:9-54
+	tools:targetApi
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:18:9-50
+	android:dataExtractionRules
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:12:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:10:9-48
+activity#com.team1.issuetracker.ui.main.MainActivity
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:22:13-49
+activity#com.team1.issuetracker.ui.login.LoginActivity
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:24:9-44:20
+	android:launchMode
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:27:13-44
+	android:exported
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:25:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:31:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:issuetracker+data:scheme:funnyhan
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:34:13-43:29
+	android:autoVerify
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:34:28-53
+action#android.intent.action.VIEW
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:37:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:38:17-78
+	android:name
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:38:27-75
+data
+ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:40:17-42:49
+	android:host
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:41:21-48
+	android:scheme
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:42:21-46
+uses-sdk
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/f9063d597f6753fae82f6b9a3d6bb7eb/transformed/databinding-adapters-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/f9063d597f6753fae82f6b9a3d6bb7eb/transformed/databinding-adapters-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/57eb649b2c42c4bc92bd08de10c19bf5/transformed/databinding-ktx-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/57eb649b2c42c4bc92bd08de10c19bf5/transformed/databinding-ktx-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/e5fcb780a2e9c4e61a24e676f4e994ed/transformed/databinding-runtime-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/e5fcb780a2e9c4e61a24e676f4e994ed/transformed/databinding-runtime-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/3eeb5389a62e6ec1cfe36027ce797682/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/3eeb5389a62e6ec1cfe36027ce797682/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/c70945b9a884b6777081842410421b77/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/c70945b9a884b6777081842410421b77/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/0ee7d336b27272335940b0c79760f44d/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/0ee7d336b27272335940b0c79760f44d/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/8df694dd8ae1fe9008a65c297cf76394/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/8df694dd8ae1fe9008a65c297cf76394/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/81c064829ea48a616cdcbb3bbf8577dd/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/81c064829ea48a616cdcbb3bbf8577dd/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/kookoo/.gradle/caches/transforms-3/eeaf3a1452dcd31dc66d1eb373db75d5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/kookoo/.gradle/caches/transforms-3/eeaf3a1452dcd31dc66d1eb373db75d5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kookoo/.gradle/caches/transforms-3/d0101c190f973e7337780cae2ec283de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kookoo/.gradle/caches/transforms-3/d0101c190f973e7337780cae2ec283de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/00cacb822e398e24074a6c9fd2ff4832/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/00cacb822e398e24074a6c9fd2ff4832/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/kookoo/.gradle/caches/transforms-3/440c6379d47df55741be9fb78add315b/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/kookoo/.gradle/caches/transforms-3/440c6379d47df55741be9fb78add315b/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/6cdc95863d6c0a1596194d7de626f2bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/6cdc95863d6c0a1596194d7de626f2bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/dd22882f1ba3a5ebd441b388aba0a8c9/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/dd22882f1ba3a5ebd441b388aba0a8c9/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/4154e7070d1b48c4c690d89b780c0db3/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/4154e7070d1b48c4c690d89b780c0db3/transformed/play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-core:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/7cda16110c571af6148ab5dc913b329f/transformed/firebase-core-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/7cda16110c571af6148ab5dc913b329f/transformed/firebase-core-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e430bbb6c4e6a758e39835931c86a729/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e430bbb6c4e6a758e39835931c86a729/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/b99ab0faa02108df4cc81a5c01d88c7e/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/b99ab0faa02108df4cc81a5c01d88c7e/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/6f492f1f1be56a82be5cbaa99668c379/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/6f492f1f1be56a82be5cbaa99668c379/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/06d1d550fac1a2963e1c0e2e7bf7b9d7/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/06d1d550fac1a2963e1c0e2e7bf7b9d7/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/37e2d9da0ee615235f1891479fc74079/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/37e2d9da0ee615235f1891479fc74079/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/kookoo/.gradle/caches/transforms-3/cd5f421981c4fd88765c7ef90d4106ec/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/kookoo/.gradle/caches/transforms-3/cd5f421981c4fd88765c7ef90d4106ec/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kookoo/.gradle/caches/transforms-3/01b156108672bc84465d692ab0d496bf/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kookoo/.gradle/caches/transforms-3/01b156108672bc84465d692ab0d496bf/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/05e492e0b3825d407930603d57d66d22/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/05e492e0b3825d407930603d57d66d22/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/b9f5be83df4e853ff123f4bda435cba0/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/b9f5be83df4e853ff123f4bda435cba0/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/0fcf73626ebe458214ba233665ec7c09/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/0fcf73626ebe458214ba233665ec7c09/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/kookoo/.gradle/caches/transforms-3/f23a6aa511a17285998248c6db955887/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/kookoo/.gradle/caches/transforms-3/f23a6aa511a17285998248c6db955887/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/83ccd7e78f3f53db814dc6104a956051/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/83ccd7e78f3f53db814dc6104a956051/transformed/coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2fdf2a3d2b0e7d92070d8f55a20e89a1/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2fdf2a3d2b0e7d92070d8f55a20e89a1/transformed/coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/6489d38c9bd67148a0052978249bcfdf/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/6489d38c9bd67148a0052978249bcfdf/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/2d7f90002b86a6696e1d7b3c97f20b8d/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/kookoo/.gradle/caches/transforms-3/2d7f90002b86a6696e1d7b3c97f20b8d/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/afa960fe7dc72e8f9559cdff2dd228c4/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/afa960fe7dc72e8f9559cdff2dd228c4/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/kookoo/.gradle/caches/transforms-3/785b57416e014877837eab54b4c75fe0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/kookoo/.gradle/caches/transforms-3/785b57416e014877837eab54b4c75fe0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/56c78060c33af58fe10c7e9759a3e8d5/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/56c78060c33af58fe10c7e9759a3e8d5/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/3cac2d2b682ff01749b68af2ebada7a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/3cac2d2b682ff01749b68af2ebada7a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/4f49b5b16679aea84a9cd943e56dd44f/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/4f49b5b16679aea84a9cd943e56dd44f/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kookoo/.gradle/caches/transforms-3/72ec6595b7e9c7e7af1d5f068bad7e0a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kookoo/.gradle/caches/transforms-3/72ec6595b7e9c7e7af1d5f068bad7e0a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f8306787a0ad781e754fb52df6644339/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f8306787a0ad781e754fb52df6644339/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/c561818a2301b204cfb4c34d41e348cc/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/c561818a2301b204cfb4c34d41e348cc/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/kookoo/.gradle/caches/transforms-3/f067f3805e0939cd1321ceb59e6f1296/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/kookoo/.gradle/caches/transforms-3/f067f3805e0939cd1321ceb59e6f1296/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kookoo/.gradle/caches/transforms-3/138c59d91ed20595b87e414630d1b5e9/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kookoo/.gradle/caches/transforms-3/138c59d91ed20595b87e414630d1b5e9/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/9d8e41e31decc2704c9fd695e16dcc5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/9d8e41e31decc2704c9fd695e16dcc5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/aa89b077c6de653dfa95962eb1d9692c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/aa89b077c6de653dfa95962eb1d9692c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/d1cc217dd293a966209bf411e3aae31c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/d1cc217dd293a966209bf411e3aae31c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/27769ca13ac34fa8b5027a0ad8700185/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/27769ca13ac34fa8b5027a0ad8700185/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/87c4021c4ae5e3bd9c08b5497c95b450/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/kookoo/.gradle/caches/transforms-3/87c4021c4ae5e3bd9c08b5497c95b450/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b5ab5e799cd5507f492d8c84b5333bfb/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b5ab5e799cd5507f492d8c84b5333bfb/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/afb18d6f2ff356573ca8b2f55981394d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/afb18d6f2ff356573ca8b2f55981394d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/a351dd3c5019a7512aaf0e95e26f31e2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/a351dd3c5019a7512aaf0e95e26f31e2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/41e2edd2d70e83ce857ae6ae015451e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/41e2edd2d70e83ce857ae6ae015451e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f30a3d1c19a1e6340db31c2d06f6d9fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/f30a3d1c19a1e6340db31c2d06f6d9fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/12ae67bab3d8b41bfcb8d63626acd788/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/12ae67bab3d8b41bfcb8d63626acd788/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/ad3d1cdeb78b9e3a8a816cc15bff16bc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/ad3d1cdeb78b9e3a8a816cc15bff16bc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/6e30706319d9543199bd35f40c85dda7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/6e30706319d9543199bd35f40c85dda7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/2032239987309205816d62c3acde2150/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/kookoo/.gradle/caches/transforms-3/2032239987309205816d62c3acde2150/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/a76394cffa257a05db2213f5bd167c5c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kookoo/.gradle/caches/transforms-3/a76394cffa257a05db2213f5bd167c5c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/744032d6a1c44e5e06858a97a71662ea/transformed/viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/kookoo/.gradle/caches/transforms-3/744032d6a1c44e5e06858a97a71662ea/transformed/viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kookoo/.gradle/caches/transforms-3/adcdc79c8db21040d2468ba98a92861c/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kookoo/.gradle/caches/transforms-3/adcdc79c8db21040d2468ba98a92861c/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a26f18c5fcc5357adcdb7d0accdb6de6/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a26f18c5fcc5357adcdb7d0accdb6de6/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/f56e4dd11018596ad9de6267f33c1264/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/f56e4dd11018596ad9de6267f33c1264/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b85c12183709e2d5d557a4f8837a4651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/b85c12183709e2d5d557a4f8837a4651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/228d7120009879adbe1d8c0573beae2e/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/228d7120009879adbe1d8c0573beae2e/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c10aaae6b444003d2ffbbf855f3cda8f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c10aaae6b444003d2ffbbf855f3cda8f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/7622d4415e1b8ba07fb6ca9c17769658/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/7622d4415e1b8ba07fb6ca9c17769658/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a3252326f0973e4235ce14a6642514e3/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/kookoo/.gradle/caches/transforms-3/a3252326f0973e4235ce14a6642514e3/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2094bea2d89f648c89fef651851eafb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kookoo/.gradle/caches/transforms-3/2094bea2d89f648c89fef651851eafb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kookoo/.gradle/caches/transforms-3/d7c64667cd82a5dbd040145f51c44fea/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kookoo/.gradle/caches/transforms-3/d7c64667cd82a5dbd040145f51c44fea/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c9915b2023588b79250dd3fbdc5f45ba/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c9915b2023588b79250dd3fbdc5f45ba/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/893bf9c671b78379c8078a7e18a19272/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/893bf9c671b78379c8078a7e18a19272/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/87125b61a987d7e1aaab23e451e8f52d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/87125b61a987d7e1aaab23e451e8f52d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/768252c92ba626de504edd0d8f7174dc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/768252c92ba626de504edd0d8f7174dc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ddbd9e3f514248ec368e1d8dff103dc/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ddbd9e3f514248ec368e1d8dff103dc/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/97f90f348875bfe1413a187619bfd2cf/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kookoo/.gradle/caches/transforms-3/97f90f348875bfe1413a187619bfd2cf/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/kookoo/.gradle/caches/transforms-3/609c46b106dcbbacba0778a39843dead/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/kookoo/.gradle/caches/transforms-3/609c46b106dcbbacba0778a39843dead/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/f333cca31f6fb463d1386fa4196dbd01/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/13c002e8ba44977109d4e62d0ae6032a/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:30:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:29:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/fcd74de914406d037b5485dc05181688/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/0cabf2ac48db9bfbd3caa5117c2a832a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

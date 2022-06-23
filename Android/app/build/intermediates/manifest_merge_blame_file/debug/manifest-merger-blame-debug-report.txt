@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.team1.issuetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:9:5-45:19
+18        android:name="com.team1.issuetracker.IssueTrackerApplication"
+18-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:10:9-48
+19        android:allowBackup="true"
+19-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:11:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/kookoo/.gradle/caches/transforms-3/a369e0b3d83baf8b8930ddc99beb55a9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:12:9-65
+22        android:debuggable="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:13:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:14:9-43
+25        android:label="@string/app_name"
+25-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:15:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:16:9-54
+27        android:supportsRtl="true"
+27-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:17:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.IssueTracker"
+29-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:18:9-50
+30        android:usesCleartextTraffic="true" >
+30-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:19:9-44
+31        <activity
+31-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:21:9-23:40
+32            android:name="com.team1.issuetracker.ui.main.MainActivity"
+32-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:22:13-49
+33            android:exported="false" />
+33-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:23:13-37
+34        <activity
+34-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:24:9-44:20
+35            android:name="com.team1.issuetracker.ui.login.LoginActivity"
+35-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:25:13-51
+36            android:exported="true"
+36-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:26:13-36
+37            android:launchMode="singleTask" >
+37-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:27:13-44
+38            <intent-filter>
+38-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:29:17-69
+39-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:31:17-77
+41-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43            <intent-filter android:autoVerify="true" >
+43-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:34:13-43:29
+43-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:34:28-53
+44                <action android:name="android.intent.action.VIEW" />
+44-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:35:17-69
+44-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:37:17-76
+46-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:37:27-73
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:38:17-78
+47-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:38:27-75
+48
+49                <data
+49-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:40:17-42:49
+50                    android:host="issuetracker"
+50-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:41:21-48
+51                    android:scheme="funnyhan" />
+51-->/Users/kookoo/Desktop/codeSquadWork/issueTracker/issue-tracker/Android/app/src/main/AndroidManifest.xml:42:21-46
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+55            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+55-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+56            android:excludeFromRecents="true"
+56-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+59        <!--
+60            Service handling Google Sign-In user revocation. For apps that do not integrate with
+61            Google Sign-In, this service will never be started.
+62        -->
+63        <service
+63-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+64            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+64-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+65            android:exported="true"
+65-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+66            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+66-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+67            android:visibleToInstantApps="true" />
+67-->[com.google.android.gms:play-services-auth:20.2.0] /Users/kookoo/.gradle/caches/transforms-3/e613f1a263d34ddcdedbb7955430d65a/transformed/play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:18.0.1] /Users/kookoo/.gradle/caches/transforms-3/7b5bc1d127c24cc16a58789da3c5f06d/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+73
+74        <service
+74-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:29:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+77            android:exported="false" >
+77-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:30:13-37
+78            <meta-data
+78-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+79                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+79-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/e1bb4c9e04f5fda90d75452f8252098c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+82                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+82-->[com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-installations:17.0.1] /Users/kookoo/.gradle/caches/transforms-3/2df37ad0731ddc4ea35d2f2db6b629c6/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+84        </service>
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+88            android:authorities="com.team1.issuetracker.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+90            android:exported="false"
+90-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+91            android:initOrder="100" />
+91-->[com.google.firebase:firebase-common:20.1.0] /Users/kookoo/.gradle/caches/transforms-3/b8b870aeab079d456218f6efa6e20684/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+92
+93        <receiver
+93-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+94            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+94-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+95            android:enabled="true"
+95-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+96            android:exported="false" >
+96-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+97        </receiver>
+98
+99        <service
+99-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+100            android:name="com.google.android.gms.measurement.AppMeasurementService"
+100-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+102            android:exported="false" />
+102-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+103        <service
+103-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+104            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+104-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+107            android:permission="android.permission.BIND_JOB_SERVICE" />
+107-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/kookoo/.gradle/caches/transforms-3/44996b3a970b60038c8daa1c62d554c2/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kookoo/.gradle/caches/transforms-3/9ba27f2f1b53efbe1b145db19ee102a6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+112
+113        <uses-library
+113-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.window.extensions"
+114-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+116        <uses-library
+116-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+117            android:name="androidx.window.sidecar"
+117-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/c59b0623db29bfa094d3e9c343bc0590/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+122            android:authorities="com.team1.issuetracker.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.0.0] /Users/kookoo/.gradle/caches/transforms-3/f77c57b930aebd03c5db59d0d2cf705e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kookoo/.gradle/caches/transforms-3/a07b9bfe8e711611b7bfccf362fd7fc0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+130        </provider>
+131    </application>
+132
+133</manifest>

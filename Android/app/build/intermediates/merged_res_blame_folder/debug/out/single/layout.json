@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_my.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_my.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/item_issue.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/item_issue.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/item_label.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/item_label.xml"
+    },
+    {
+        "merged": "com.team1.issuetracker.app-mergeDebugResources-50:/layout/item_label.xml",
+        "source": "com.team1.issuetracker.app-main-53:/layout/item_label.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/item_milestone.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/item_milestone.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_label.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_label.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_add_milestone.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_add_milestone.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_issue.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_issue.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_add_label.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_add_label.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/fragment_milestone.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/fragment_milestone.xml"
+    },
+    {
+        "merged": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-mergeDebugResources-50:/layout/activity_login.xml",
+        "source": "/Users/kookoo/.gradle/daemon/7.3.3/com.team1.issuetracker.app-main-53:/layout/activity_login.xml"
+    }
+]
