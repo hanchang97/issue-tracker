@@ -4,6 +4,6 @@ import android.util.Log
 
 object PrintLog {
     fun printLog(msg: String){
-        Log.d("TAG", "$msg")
+        Log.d("AppTest", "$msg")
     }
 }

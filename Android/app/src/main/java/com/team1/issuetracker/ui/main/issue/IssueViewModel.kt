@@ -1,12 +1,17 @@
 package com.team1.issuetracker.ui.main.issue
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.team1.issuetracker.common.IssueState
 import com.team1.issuetracker.common.PrintLog
 import com.team1.issuetracker.data.model.Issue
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.channels.BufferOverflow
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -20,6 +25,10 @@ class IssueViewModel @Inject constructor(): ViewModel() {
 
     private val sampleOriginIssueList = ArrayList<Issue>()
     private val checkedSet: MutableSet<Int> = mutableSetOf()
+
+    private val _closeOrDeleteFlow = MutableSharedFlow<Boolean>(
+        replay = 0, extraBufferCapacity = 1, onBufferOverflow = BufferOverflow.DROP_OLDEST)
+    val closeOrDeleteFlow = _closeOrDeleteFlow.asSharedFlow()
 
     init {
         addSampleIssueData()
@@ -40,12 +49,22 @@ class IssueViewModel @Inject constructor(): ViewModel() {
 
     // 1개 이슈 닫기 - 스와이프 후 삭제 시
     fun requestCloseSpecificIssue(id: Int){
+        PrintLog.printLog("clicked id : ${id}")
         sampleOriginIssueList[id].issueState = IssueState.CloseRequested
         val tempList = ArrayList<Issue>()
         sampleOriginIssueList.forEach {
             if(it.issueState == IssueState.Open) tempList.add(Issue(it.issueId, it.mileStone, it.title, it.content, it.labelContent, it.labelColor, false, false, false, IssueState.Open))
         }
+        PrintLog.printLog("tempList Size : ${tempList.size}")
         _issueList.value = tempList
+
+        viewModelScope.launch {
+            _closeOrDeleteFlow.emit(true)
+        }
+    }
+
+    fun undo(){
+        
     }
 
     private fun addSampleIssueData(){

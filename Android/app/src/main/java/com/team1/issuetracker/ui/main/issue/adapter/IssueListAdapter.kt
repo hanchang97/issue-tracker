@@ -36,7 +36,15 @@ class IssueListAdapter(
             else binding.swipeView.translationX = 0f
 
             binding.eraseItemView.setOnClickListener {
-                if (issue.isSwiped) closeSwiped.invoke(getItem(adapterPosition).issueId)
+                PrintLog.printLog("${issue}")
+                PrintLog.printLog("${getItem(adapterPosition)}")
+                if (getItem(adapterPosition).isSwiped) { // issue.isSwiped에서 변경!!
+                    PrintLog.printLog("issue adapter/ swiped click : ${adapterPosition}, ${getItem(adapterPosition).issueId}")
+                    closeSwiped.invoke(getItem(adapterPosition).issueId)
+                }
+                else{
+                    PrintLog.printLog("issue adapter/ not swiped : ${adapterPosition}, ${getItem(adapterPosition).issueId}, ${getItem(adapterPosition).isSwiped}")
+                }
             }
 
             // 체크 여부에 따른 배경색 설정
@@ -95,6 +103,7 @@ class IssueListAdapter(
         }
 
         fun setClamped(isClamped: Boolean) {
+            PrintLog.printLog("issue adapter/ setClamped, ${isClamped}, ${adapterPosition}")
             getItem(adapterPosition).isSwiped = isClamped
         }
 
