@@ -35,9 +35,14 @@ class IssueViewModel @Inject constructor(): ViewModel() {
     }
 
     fun checkItem(inx: Int){
-        if(checkedSet.contains(inx)) checkedSet.remove(inx)
-        else checkedSet.add(inx)
-
+        if(checkedSet.contains(inx)) {
+            PrintLog.printLog("${inx} -> unchecked")
+            checkedSet.remove(inx)
+        }
+        else {
+            PrintLog.printLog("${inx} -> checked")
+            checkedSet.add(inx)
+        }
         _itemCount.value = checkedSet.size
     }
 

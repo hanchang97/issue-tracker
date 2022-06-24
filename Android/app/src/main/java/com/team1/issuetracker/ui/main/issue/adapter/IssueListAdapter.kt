@@ -87,7 +87,7 @@ class IssueListAdapter(
                         )
                     )
                 }
-                itemCheck.invoke(adapterPosition) // IssueFragment에서 뷰모델과 연결된다
+                itemCheck.invoke(getItem(adapterPosition).issueId) // IssueFragment에서 뷰모델과 연결된다, 뷰모델에는 open 상태 아닌 아이템도 다 관리하므로 issueId 넘기기!
             }
             // 직접 체크 박스 클릭하는 경우만 고려하기 위해 setOnCheckedChangeListener 대신 onClickListene 사용
 
