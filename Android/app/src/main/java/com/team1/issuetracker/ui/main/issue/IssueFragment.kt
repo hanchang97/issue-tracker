@@ -56,12 +56,14 @@ class IssueFragment : Fragment() {
         val itemTouchHelper = ItemTouchHelper(swipeHelper)
         itemTouchHelper.attachToRecyclerView(binding.rvIssue)
 
-        var cancel = true
 
         val callback = object : ActionMode.Callback {
+            var cancel = true
+
             override fun onCreateActionMode(mode: ActionMode?, menu: Menu?): Boolean {
                 Log.d("AppTest", "onCreateActionMode")
                 requireActivity().menuInflater.inflate(R.menu.contextual_action_bar, menu)
+                cancel = true
                 return true
             }
 
