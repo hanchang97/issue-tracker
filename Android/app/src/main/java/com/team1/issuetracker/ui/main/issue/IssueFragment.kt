@@ -52,6 +52,10 @@ class IssueFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        val swipeHelper = IssueSwipeHelper()
+        val itemTouchHelper = ItemTouchHelper(swipeHelper)
+        itemTouchHelper.attachToRecyclerView(binding.rvIssue)
+
         var cancel = true
 
         val callback = object : ActionMode.Callback {
@@ -91,6 +95,8 @@ class IssueFragment : Fragment() {
                 issueListAdapter.makeCheckBoxGone() // 모든 아이템 체크박스 보이지 않도록
                 if(cancel) viewModel.checkedSetClear()
                 else viewModel.requestCloseIssueSet()
+
+                itemTouchHelper.attachToRecyclerView(binding.rvIssue) // 다시 헬퍼 붙이기
             }
         }
 
@@ -124,9 +130,6 @@ class IssueFragment : Fragment() {
         setAppBar()
 
         //////////////////////////////////////////////
-        val swipeHelper = IssueSwipeHelper()
-        val itemTouchHelper = ItemTouchHelper(swipeHelper)
-        itemTouchHelper.attachToRecyclerView(binding.rvIssue)
 
         issueListAdapter = IssueListAdapter({
             // 아이템 롱 클릭
