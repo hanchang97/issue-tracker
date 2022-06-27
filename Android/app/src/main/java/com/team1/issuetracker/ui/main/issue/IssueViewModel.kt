@@ -30,6 +30,9 @@ class IssueViewModel @Inject constructor(): ViewModel() {
         replay = 0, extraBufferCapacity = 1, onBufferOverflow = BufferOverflow.DROP_OLDEST)
     val closeOrDeleteFlow = _closeOrDeleteFlow.asSharedFlow()
 
+    private val _actionModeFlow = MutableSharedFlow<Boolean>( replay = 0, extraBufferCapacity = 1, onBufferOverflow = BufferOverflow.DROP_OLDEST)
+    val actionModeFlow = _actionModeFlow.asSharedFlow()
+
     init {
         addSampleIssueData()
     }
