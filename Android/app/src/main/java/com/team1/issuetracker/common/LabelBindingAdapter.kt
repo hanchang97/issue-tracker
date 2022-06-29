@@ -35,6 +35,7 @@ fun setLabelColor(editText: EditText, viewModel: AddLabelViewModel) {
             }.onFailure {
                 Toast.makeText(editText.context, "올바른 색상을 입력해주세요.", Toast.LENGTH_SHORT).show()
                 Log.d("TAG", "fail")
+
             }
         }
     }

@@ -90,6 +90,7 @@ class MilestoneFragment : Fragment() {
 
 
         val swipeHelper = MilestoneSwipeHelper()
+
         val itemTouchHelper = ItemTouchHelper(swipeHelper)
         itemTouchHelper.attachToRecyclerView(binding.rvMilestone)
 

@@ -66,7 +66,6 @@
             android:background="@android:color/transparent"
             android:onTextChanged="@{(text, start, before, count)  -> viewModel.setTitle(text, start, before, count)}"/>
 
-
         <View
             android:id="@+id/view_description"
             android:layout_width="match_parent"
@@ -96,7 +95,6 @@
             android:hint="@string/choose"
             android:background="@android:color/transparent"
             android:afterTextChanged="@{text -> viewModel.setContent(text)}"/>
-
 
         <View
             android:id="@+id/view_date"

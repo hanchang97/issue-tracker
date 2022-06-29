@@ -20,6 +20,7 @@ class LabelSwipeHelper: SwipeHelper() {
 
     override fun getClamped(viewHolder: RecyclerView.ViewHolder): Boolean{
         viewHolder as LabelAdapter.LabelViewHolder
+
         return viewHolder.getClamped()
     }
 }

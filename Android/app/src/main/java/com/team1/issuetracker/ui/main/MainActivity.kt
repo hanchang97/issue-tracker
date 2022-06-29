@@ -16,6 +16,7 @@ import com.team1.issuetracker.ui.main.issue.IssueViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
