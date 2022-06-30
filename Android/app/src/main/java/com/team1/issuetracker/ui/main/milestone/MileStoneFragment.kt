@@ -128,6 +128,7 @@ class MilestoneFragment : Fragment() {
             }
         }
 
+
         milestoneAdapter = MilestoneAdapter({
             // 아이템 롱 클릭
             PrintLog.printLog("Issue Item Long Click")    // 이슈 리스트 아이템 롱 클릭 이벤트 영역!!
