@@ -19,7 +19,10 @@ fun setLabelColor(editText: EditText, setLabelBackground: (Int, String) -> Unit)
 
         }
 
-        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
+
+        }
+
         override fun afterTextChanged(s: Editable) {
             text = s.toString()
         }

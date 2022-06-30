@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.team1.issuetracker.R
 import com.team1.issuetracker.common.PrintLog
-import com.team1.issuetracker.data.model.Label
 import com.team1.issuetracker.data.model.Milestone
 import com.team1.issuetracker.databinding.ItemMilestoneBinding
 
@@ -43,6 +42,8 @@ class MilestoneAdapter(
             Log.d("AppTest", "bind")
             binding.clCheckbox.isVisible = milestone.isCheckVisible
             binding.item = milestone
+            binding.tvOpenIssueCount.text = binding.root.context.getString(R.string.open_issue_count_label, milestone.open)
+            binding.tvClosedIssueCount.text = binding.root.context.getString(R.string.closed_issue_count_label, milestone.closed)
 
 
             // 뷰홀더 재사용 과정에서 isClamped 값에 맞지 않는 스와이프 상태가 보일 수 있으므로 아래와 같이 명시적으로 isClamped 값에 따라 스와이프 상태 지정
@@ -169,7 +170,6 @@ class MilestoneAdapter(
             )
         }
         submitList(newList.toList())
-
     }
 
     private object MilestoneDiffUtil : DiffUtil.ItemCallback<Milestone>() {
@@ -179,8 +179,6 @@ class MilestoneAdapter(
 
         override fun areContentsTheSame(oldItem: Milestone, newItem: Milestone) =
             oldItem == newItem
-
     }
-
 
 }

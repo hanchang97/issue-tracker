@@ -1,6 +1,7 @@
 package com.team1.issuetracker.ui.main.milestone
 
 import android.os.Bundle
+import android.text.Editable
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -48,6 +49,11 @@ class AddMilestoneFragment : Fragment() {
             }
         }
 
+        setCalendarButton()
+
+    }
+
+    private fun setCalendarButton() {
         val datePicker =
             MaterialDatePicker.Builder.datePicker()
                 .setTitleText("Select date")
@@ -63,5 +69,4 @@ class AddMilestoneFragment : Fragment() {
             }
         }
     }
-
 }
