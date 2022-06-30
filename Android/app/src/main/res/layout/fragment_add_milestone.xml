@@ -66,7 +66,6 @@
             android:background="@android:color/transparent"
             android:onTextChanged="@{(text, start, before, count)  -> viewModel.setTitle(text, start, before, count)}"/>
 
-
         <View
             android:id="@+id/view_description"
             android:layout_width="match_parent"
@@ -97,7 +96,6 @@
             android:background="@android:color/transparent"
             android:afterTextChanged="@{text -> viewModel.setContent(text)}"/>
 
-
         <View
             android:id="@+id/view_date"
             android:layout_width="match_parent"
@@ -126,7 +124,7 @@
             android:textSize="14sp"
             android:hint="@string/date_format"
             android:background="@android:color/transparent"
-            setDate="@{viewModel}"/>
+            setDate="@{viewModel.setDate}"/>
 
         <ImageView
             android:id="@+id/btn_calendar"

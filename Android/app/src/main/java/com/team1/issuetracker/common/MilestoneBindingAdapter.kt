@@ -12,7 +12,7 @@ import com.team1.issuetracker.ui.main.milestone.AddMilestoneViewModel
 import java.text.SimpleDateFormat
 
 @BindingAdapter("setDate")
-fun setDate(editText: EditText, viewModel: AddMilestoneViewModel) {
+fun setDate(editText: EditText, setDate: (String) -> Unit) {
     var text = ""
     editText.addTextChangedListener(object : TextWatcher {
         override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
@@ -31,7 +31,7 @@ fun setDate(editText: EditText, viewModel: AddMilestoneViewModel) {
             runCatching {
                 format.parse(text)
             }.onSuccess {
-                viewModel.setDate(text)
+                setDate(text)
                 Log.d("TAG", "success")
             }.onFailure {
                 Toast.makeText(editText.context, "올바른 날짜를 입력해주세요.", Toast.LENGTH_SHORT).show()

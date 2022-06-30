@@ -44,7 +44,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintWidth_percent="0.186"
                     app:layout_constraintDimensionRatio="1:1"
-                    android:src="@drawable/ic_issue_list_close"/>
+                    android:src="@drawable/ic_issue_delete_white"/>
 
                 <View
                     android:id="@+id/empty_view_1_1"
@@ -60,7 +60,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/empty_view_1_1"
-                    android:text="닫기"
+                    android:text="삭제"
                     style="@style/Text_Secondary1.14_Bold"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>

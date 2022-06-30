@@ -39,14 +39,9 @@ class AddMilestoneViewModel: ViewModel() {
         _content.value = text.toString()
     }
 
-    fun setDate(text: String) {
+    val setDate = { text: String ->
         _date.value = text
-
-
     }
 
 }
 
-//841237893827-1a4ris2ev66ameshppsqk0ml1cs1hn2n.apps.googleusercontent.com
-
-//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

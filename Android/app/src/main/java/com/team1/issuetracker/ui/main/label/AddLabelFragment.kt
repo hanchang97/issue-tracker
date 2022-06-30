@@ -86,7 +86,7 @@ class AddLabelFragment : Fragment() {
 
     private fun setColorChangeButton() {
         binding.btnColorChange.setOnClickListener {
-            viewModel.setLabelBackground()
+            viewModel.setLabelBackgroundRandomColor()
         }
     }
 

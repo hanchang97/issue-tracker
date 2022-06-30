@@ -11,6 +11,7 @@ import com.google.android.material.datepicker.MaterialDatePicker
 import com.team1.issuetracker.common.repeatOnStarted
 import com.team1.issuetracker.databinding.FragmentAddMilestoneBinding
 import hirondelle.date4j.DateTime
+import java.text.SimpleDateFormat
 import java.util.*
 
 class AddMilestoneFragment : Fragment() {
@@ -47,7 +48,6 @@ class AddMilestoneFragment : Fragment() {
             }
         }
 
-
         val datePicker =
             MaterialDatePicker.Builder.datePicker()
                 .setTitleText("Select date")
@@ -60,11 +60,7 @@ class AddMilestoneFragment : Fragment() {
                 val dateTime = DateTime.forInstant(select, TimeZone.getTimeZone("Asia/Seoul"))
                 val dateFormat = dateTime.format("YYYY-MM-DD")
                 viewModel.setDate(dateFormat)
-
-                Log.d("TAG", "date $dateFormat")
             }
-
-
         }
     }
 
